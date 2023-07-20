@@ -11,11 +11,18 @@ body {
 
 header {
     background-color: white;
-    width: 80VH;
+    width:  65vw;
+    height: 10vh;
     margin: auto;
 }
 
+.logo {
+    padding-left: 20px;
+    font-size: 24px;
+}
+
 header {
+
     display: flex;
     position: relative;
     justify-content: space-between;
@@ -23,12 +30,16 @@ header {
     flex-direction: row;
 }
 
+header menu a {
+    text-decoration: none;
+    color: black;
+    padding: 3px;
+    font-size: 1.5em;
+}
+
 
 main {
     margin: auto;
-    width: 80vh;
+    width: 65vw;
     background-color: white;
-
-
-
 }
