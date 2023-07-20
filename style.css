@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #000011;
+}
+
+header {
+    background-color: white;
+    width: 80VH;
+    margin: auto;
+}
+
+header {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+
+main {
+    margin: auto;
+    width: 80vh;
+    background-color: white;
+
+
+
+}
