@@ -132,3 +132,14 @@ main {
 .texto-sobre p {
     margin-bottom: 10px;
 }
+
+
+.habilidades h2 {
+    width: 20%; /* Ocupar a largura total do container */
+    text-align: center; /* Centralizar o texto horizontalmente */
+    border-bottom: 5px solid rgba(255, 166, 0, 0.87);
+    margin: auto;
+    font-size: 200%;
+
+
+}
