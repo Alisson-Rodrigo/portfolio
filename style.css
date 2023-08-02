@@ -4,12 +4,13 @@
     box-sizing: border-box;
 }
 
+
 body {
     font-family: 'Roboto', sans-serif;
     position: relative;
     background-color: #130F1A;
     color: #fff;
-    height: 100vh;
+    height: 100%;
 }
 
 header {
@@ -29,7 +30,7 @@ header {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    width: 60%;
+    width: 70%;
 }
 
 .img-header {
@@ -41,7 +42,7 @@ header {
 menu a {
     text-decoration: none;
     color: #fff;
-    font-size: 1 rem;
+    font-size: 1.2em;
     padding: 15px;
     margin: 5px;
     border-radius: 15px;
@@ -57,10 +58,9 @@ menu a:hover {
 main {
     display: flex;
     margin: auto;
-    height: 100vh;
-    width: 60%;
+    height: 100%;
+    width: 70%;
     flex-direction: column;
-    background-color: #130F1A;
     color: #fff;
 }
 
@@ -84,7 +84,7 @@ main {
 }
 
 .sobre {
-    margin-top: 10%;
+    margin-top: 4%;
 
 }
 
@@ -104,7 +104,7 @@ main {
     flex-direction: row;
     color: #fff;
     height: 70vh;
-    margin-top: -20px;
+    margin-top: 10px;
 }
 
 .img-sobre {
@@ -134,12 +134,61 @@ main {
 }
 
 
+.habilidades {
+    margin-top: 10%;
+}
+
 .habilidades h2 {
-    width: 20%; /* Ocupar a largura total do container */
-    text-align: center; /* Centralizar o texto horizontalmente */
+    width: 20%; 
+    text-align: center; 
     border-bottom: 5px solid rgba(255, 166, 0, 0.87);
     margin: auto;
     font-size: 200%;
 
+
+}
+
+.img-mysql {
+    height: 90px;
+}
+
+.container-habilidades {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    color: #fff;
+    height: 20vh;
+    margin-top: 50px;
+    gap: 40px;
+
+}
+
+.img-logo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    background-color: #23252B;
+    padding: 20px 50px 20px 50px;
+    border-radius: 60px 2px 2px 2px;
+    border-bottom: 3px solid orange;
+    font-weight: bold;
+    gap: 10px;
+}
+
+.img-yolo {
+    height: 90px;
+}
+
+#container-yolo {
+    padding: 20px 30px 20px 30px;
+
+}
+
+#container-mysql{
+    padding: 20px 30px 20px 30px;
 
 }
