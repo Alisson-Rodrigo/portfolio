@@ -254,5 +254,28 @@ main {
     flex-wrap: wrap;
     gap: 50px;
     margin-top: 80px;
+}
 
+.img-contatos {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    font-size: 1.2em;
+}
+
+.img-contatos h3 {
+    color: rgb(255, 166, 0);
+}
+
+footer {
+    display: flex;
+    height: 80px;
+    background-color: #23252B;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    margin-top: 10%;
 }
