@@ -121,12 +121,13 @@ main {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     width: 60%;
-    font-size: 20px;
+    font-size: 23px;
     margin-right: 200px;
+    font
 }
 
 .texto-sobre strong {
-    color: #ffa600b0;
+    color: red;
 }
 
 .texto-sobre p {
@@ -265,6 +266,10 @@ main {
     font-size: 1.2em;
 }
 
+.img-contatos p {
+    color: rgb(185, 180, 180);
+}
+
 .img-contatos h3 {
     color: rgb(255, 166, 0);
 }
@@ -278,4 +283,10 @@ footer {
     font-family: 'Courier New', Courier, monospace;
     font-size: 25px;
     margin-top: 10%;
+}
+
+footer p {
+    border-bottom:5px solid rgba(128, 128, 128, 0.63);
+    padding: 5px;
+
 }
