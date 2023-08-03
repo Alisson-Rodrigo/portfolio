@@ -159,7 +159,7 @@ main {
     flex-wrap: wrap;
     color: #fff;
     height: 20vh;
-    margin-top: 50px;
+    margin-top: 80px;
     gap: 40px;
 
 }
@@ -191,4 +191,36 @@ main {
 #container-mysql{
     padding: 20px 30px 20px 30px;
 
+}
+
+
+.projetos h2 {
+    width: 20%; 
+    text-align: center; 
+    border-bottom: 5px solid rgba(255, 166, 0, 0.87);
+    margin: auto;
+    font-size: 200%;
+}
+
+.projetos {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin-top: 25%;
+}
+
+.img-projetos img {
+    height: 300px;
+
+}
+
+
+.container-projetos {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 80px;
+    gap: 50px;
 }
