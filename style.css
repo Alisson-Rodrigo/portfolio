@@ -206,11 +206,17 @@ main {
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
-    margin-top: 25%;
+    margin-top: 19%;
 }
 
 .img-projetos img {
     height: 300px;
+
+}
+
+.img-projetos img:hover {
+    transform: scale(1.05);
+    transition: 0.4s;
 
 }
 
@@ -223,4 +229,19 @@ main {
     flex-direction: row;
     margin-top: 80px;
     gap: 50px;
+}
+
+.contatos h2 {
+    width: 20%; 
+    text-align: center; 
+    border-bottom: 5px solid rgba(255, 166, 0, 0.87);
+    margin: auto;
+    font-size: 200%;
+}
+
+.contatos {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin-top: 19%;
 }
