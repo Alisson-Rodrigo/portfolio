@@ -209,13 +209,43 @@ main {
     margin-top: 19%;
 }
 
+
+.img-projetos {
+    position: relative;
+    overflow: hidden; /* Adicione essa linha para esconder qualquer conteúdo excedente dentro da div */
+}
+
 .img-projetos img {
     height: 300px;
+    box-shadow: inset 3px 3px 5px rgba(0, 0, 0, 0.3);
+}
 
+.texto-projeto {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 10px;
+    opacity: 0;
+    transition: 0.3s ease;
+    text-align: center;
+    box-sizing: border-box; 
+}
+
+.img-projetos:hover .texto-projeto {
+    opacity: 1;
 }
 
 .img-projetos img:hover {
-    transform: scale(1.05);
+    transition: 0.4s;
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.img-projetos:hover {
+    transform: scale(1.02);
     transition: 0.4s;
 
 }
